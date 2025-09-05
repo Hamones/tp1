@@ -7,7 +7,7 @@ Testar todas as funcionalidades para as aulas dentro do ambiente notion.
 int main ()
 {
   vet = malloc(tam*sizeof(int));
-  
+	free(vet);  
   return 0;
     
 }
